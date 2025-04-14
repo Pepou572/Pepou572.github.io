@@ -1,0 +1,25 @@
+/* CSS Document */
+body{
+background-color:lightblue;
+}
+p{
+text-align:center; color:green; 
+}
+.prvni_trida{
+color:red;
+font-size: 30px;
+}
+.vetsi{
+font-size: 20px;
+}
+table{
+margin: 20px;
+width:80%;
+}
+.centr{
+margin-left:auto;
+margin-right:auto;
+}
+.stred{
+text-align:center;
+}
