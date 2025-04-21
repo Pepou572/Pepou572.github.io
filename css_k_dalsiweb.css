@@ -3,7 +3,6 @@ body{
 background-color:lightblue;
 }
 p{
-text-align:center; color:green; 
 }
 .prvni_trida{
 color:red;
@@ -11,6 +10,7 @@ font-size: 30px;
 }
 .vetsi{
 font-size: 20px;
+text-align:center; color:green; 
 }
 table{
 margin: 20px;
@@ -22,4 +22,7 @@ margin-right:auto;
 }
 .stred{
 text-align:center;
+}
+.h1{
+  color:red;
 }
