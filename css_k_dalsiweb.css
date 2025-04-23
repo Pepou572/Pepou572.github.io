@@ -1,0 +1,68 @@
+/* CSS Document */
+body{
+background-color:lightblue;
+}
+.prvni_trida{
+color:red;
+font-size: 30px;
+text-align:center;
+}
+.vetsi{
+font-size: 20px;
+text-align:center;
+color:green;
+}
+table{
+margin: 20px;
+width:80%;
+}
+.centr{
+margin-left:auto;
+margin-right:auto;
+}
+.stred{
+text-align:center;
+}
+.h1{
+color:red;
+}
+.obsah {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  border: 6px double black;
+  background-color: lightblue;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+}
+.blok1 {
+  top: 0;
+right 0;
+}
+.blok2 {
+  float: right;
+  bottom: 100px;
+}
+.obsah img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.obsah img:hover {
+  transform: scale(1.05);
+}
+.okrajovy-nadpis {
+  max-width: 1000px; /* stejná jako .obsah */
+  margin: 30px auto 10px auto;
+  text-align: left; /* nebo right */
+  font-size: 28px;
+  color: darkblue;
+}
