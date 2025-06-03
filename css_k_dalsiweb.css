@@ -1,0 +1,202 @@
+/* CSS Document */
+body{
+background-color:lightblue;
+}
+.prvni_trida{
+color:red;
+font-size: 30px;
+text-align:center;
+}
+.vetsi{
+font-size: 20px;
+text-align:center;
+color:red;
+}
+table{
+margin: 20px;
+width:80%;
+}
+.centr{
+margin-left:auto;
+margin-right:auto;
+}
+.stred{
+text-align:center;
+}
+.h1{
+color:red;
+}
+.obsah {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  border: 6px double black;
+  background-color: lightblue;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+}
+.blok1 {
+  top: 0;
+right 0;
+}
+.blok2 {
+  float: right;
+  bottom: 100px;
+}
+.obsah img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.obsah img:hover {
+  transform: scale(1.05);
+}
+.okrajovy-nadpis {
+  max-width: 1000px; 
+  margin: 30px auto 10px auto;
+  text-align: left; 
+  font-size: 28px;
+  color: darkblue;
+}
+.info-nadpis {
+  margin-top: px; 
+  text-align: left;
+  color: yellow;
+}
+.zluta {
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  background-color: darkblue;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: yellow;
+  color: black;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 90%;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #cce5ff;
+}
+
+tr:nth-child(even) {
+ background-color: #f2f2f2;
+}
+
+.cerveny {
+  color: red;
+  font-weight: bold;
+}
+.soupiska {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+}
+.foto_stred{
+display: block;
+margin-left:auto;
+margin-right:auto;
+//width: 1000px;
+}
+.foto_tym{
+display: block;
+margin-left:auto;
+margin-right:auto;
+}
+.soupiska-blok {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.soupiska3 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.soupiska h3 {
+  font-size: 22px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.soupiska ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.soupiska li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #003300;
+}
+.soupiska-nadpis {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 30px;
+  color: #222;
+}
+.text_centr{
+text-align: center;
+}
+.zvecovaci_obrazek{
+display: block;
+margin-left:auto;
+margin-right:auto;
+transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.zvecovaci_obrazek:hover {
+  transform: scale(2); 
+  z-index: 999;
+}
+.paticka {
+  background-color: #00CCFF;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
